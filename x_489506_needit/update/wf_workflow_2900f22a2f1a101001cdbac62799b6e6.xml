@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"activities":{"564aeefa2fd6101001cdbac62799b6e7":"450a2efa2fd6101001cdbac62799b66e","f68a223e2fd6101001cdbac62799b627":"c50a2efa2fd6101001cdbac62799b66e","1cdae63e2fd6101001cdbac62799b643":"952a6efa2fd6101001cdbac62799b6e6","9eaaeefa2fd6101001cdbac62799b615":"952a6efa2fd6101001cdbac62799b6e6","890a2efa2fd6101001cdbac62799b673":"c50a2efa2fd6101001cdbac62799b66e"},"stages":{"c50a2efa2fd6101001cdbac62799b66e":{"duration":"","stageId":"c50a2efa2fd6101001cdbac62799b66e","order":200,"name":"Pending 1st Approval","value":"Pending 1st Approval"},"952a6efa2fd6101001cdbac62799b6e6":{"duration":"","stageId":"952a6efa2fd6101001cdbac62799b6e6","order":300,"name":"Pending 2nd Approval","value":"Pending 2nd Approval"},"450a2efa2fd6101001cdbac62799b66e":{"duration":"","stageId":"450a2efa2fd6101001cdbac62799b66e","order":100,"name":"Pending Submission","value":"Pending Submission"}},"ends":["410a2efa2fd6101001cdbac62799b679"]}</activity_stages>
+        <activity_stages>{"subflows":[],"activities":{"97a28c472fda101001cdbac62799b668":"d3a28c472fda101001cdbac62799b665","9ba28c472fda101001cdbac62799b669":"5ba28c472fda101001cdbac62799b665","d7a280872fda101001cdbac62799b6b5":"d7a28c472fda101001cdbac62799b665","d7a280872fda101001cdbac62799b6bc":"5ba28c472fda101001cdbac62799b665","13a28c472fda101001cdbac62799b666":"d7a28c472fda101001cdbac62799b665"},"stages":{"5ba28c472fda101001cdbac62799b665":{"duration":"","stageId":"5ba28c472fda101001cdbac62799b665","order":200,"name":"Pending 1st Approval","value":"Pending 1st Approval"},"d3a28c472fda101001cdbac62799b665":{"duration":"","stageId":"d3a28c472fda101001cdbac62799b665","order":100,"name":"Pending Submission","value":"Pending Submission"},"d7a28c472fda101001cdbac62799b665":{"duration":"","stageId":"d7a28c472fda101001cdbac62799b665","order":300,"name":"Pending 2nd Approval","value":"Pending 2nd Approval"}},"ends":["5ba28c472fda101001cdbac62799b667"]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -9,10 +9,10 @@
         <condition/>
         <condition_type>run_match</condition_type>
         <description/>
-        <expected_sequences>cd0a2efa2fd6101001cdbac62799b66e,564aeefa2fd6101001cdbac62799b6e7,890a2efa2fd6101001cdbac62799b673,f68a223e2fd6101001cdbac62799b627,9eaaeefa2fd6101001cdbac62799b615,1cdae63e2fd6101001cdbac62799b643,a4fa663e2fd6101001cdbac62799b6e2,410a2efa2fd6101001cdbac62799b679</expected_sequences>
+        <expected_sequences>5ba280872fda101001cdbac62799b6bb,97a28c472fda101001cdbac62799b668,9ba28c472fda101001cdbac62799b669,d7a280872fda101001cdbac62799b6bc,d7a280872fda101001cdbac62799b6b5,13a28c472fda101001cdbac62799b666,1ba280872fda101001cdbac62799b6ba,5ba28c472fda101001cdbac62799b667</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>cd0a2efa2fd6101001cdbac62799b66e,564aeefa2fd6101001cdbac62799b6e7,890a2efa2fd6101001cdbac62799b673,f68a223e2fd6101001cdbac62799b627,a4fa663e2fd6101001cdbac62799b6e2,9eaaeefa2fd6101001cdbac62799b615,410a2efa2fd6101001cdbac62799b679,1cdae63e2fd6101001cdbac62799b643</full_sequences>
+        <full_sequences>5ba280872fda101001cdbac62799b6bb,97a28c472fda101001cdbac62799b668,9ba28c472fda101001cdbac62799b669,d7a280872fda101001cdbac62799b6bc,a9b2c0872fda101001cdbac62799b66a,d7a280872fda101001cdbac62799b6b5,5ba28c472fda101001cdbac62799b667,13a28c472fda101001cdbac62799b666,1ba280872fda101001cdbac62799b6ba</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Needit Approval</name>
@@ -27,13 +27,13 @@
         <schedule/>
         <stage_field>stage</stage_field>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">cd0a2efa2fd6101001cdbac62799b66e</start>
+        <start display_value="Begin">5ba280872fda101001cdbac62799b6bb</start>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>090a62fa2fd6101001cdbac62799b67d</sys_id>
-        <sys_mod_count>121</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5ba28c472fda101001cdbac62799b663</sys_id>
+        <sys_mod_count>31</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:03:13</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:27:50</sys_updated_on>
         <table>x_489506_needit_needit</table>
         <timezone/>
         <validated>false</validated>
@@ -68,52 +68,52 @@
         <ola>1970-01-01 00:00:00</ola>
         <order>400</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>810a2efa2fd6101001cdbac62799b66e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>57a28c472fda101001cdbac62799b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:57:45</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>Completed</value>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Pending 1st Approval</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>200</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>c50a2efa2fd6101001cdbac62799b66e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5ba28c472fda101001cdbac62799b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:57:50</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>Pending 1st Approval</value>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Pending 2nd Approval</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>300</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:57:37</sys_created_on>
-        <sys_id>952a6efa2fd6101001cdbac62799b6e6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d7a28c472fda101001cdbac62799b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:57:43</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>Pending 2nd Approval</value>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Pending Submission</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>450a2efa2fd6101001cdbac62799b66e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d3a28c472fda101001cdbac62799b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:57:48</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>Pending Submission</value>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
     </wf_stage>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
@@ -129,103 +129,209 @@
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Pending 1st Approval">c50a2efa2fd6101001cdbac62799b66e</stage>
+        <stage display_value="Pending 1st Approval">5ba28c472fda101001cdbac62799b665</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>890a2efa2fd6101001cdbac62799b673</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>9ba28c472fda101001cdbac62799b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:59:04</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
         <x>486</x>
         <y>74</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=890a2efa2fd6101001cdbac62799b673"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9ba28c472fda101001cdbac62799b669"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>110</order>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1120</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>010a2efa2fd6101001cdbac62799b674</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>13a280872fda101001cdbac62799b6b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>13a28c472fda101001cdbac62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
-        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>900</order>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1370</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>010a2efa2fd6101001cdbac62799b677</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>17a28c472fda101001cdbac62799b66a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1ba280872fda101001cdbac62799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
-        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1110</order>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>050a2efa2fd6101001cdbac62799b676</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1fa280872fda101001cdbac62799b6b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1fa28c472fda101001cdbac62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>53a28c472fda101001cdbac62799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>57a280872fda101001cdbac62799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
-        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1360</order>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>090a2efa2fd6101001cdbac62799b675</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>57a28c472fda101001cdbac62799b66c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
-answer = 0;</value>
-        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1330</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>0d0a2efa2fd6101001cdbac62799b674</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
-        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5ba280872fda101001cdbac62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5ba28c472fda101001cdbac62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>be82abf03710200044e0bfc8bcbe5d1c</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5fa28c472fda101001cdbac62799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
         <order>2050</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>0d0a2efa2fd6101001cdbac62799b677</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>93a280872fda101001cdbac62799b6b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
 //&#13;
 // For example:&#13;
@@ -237,543 +343,437 @@ answer = 0;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>410a2efa2fd6101001cdbac62799b676</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>reject</value>
-        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>120</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>450a2efa2fd6101001cdbac62799b675</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>490a2efa2fd6101001cdbac62799b674</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>900</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>490a2efa2fd6101001cdbac62799b677</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>4d0a2efa2fd6101001cdbac62799b676</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>103</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>810a2efa2fd6101001cdbac62799b675</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>810a2efa2fd6101001cdbac62799b678</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1370</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>850a2efa2fd6101001cdbac62799b674</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
-//&#13;
-//    counts.total = total number of users that are part of this approval&#13;
-//    counts.approved = # of users that approved so far&#13;
-//    counts.rejected = # of users that rejected so far&#13;
-//    counts.requested = # of users that are pending approval&#13;
-//    counts.not_requested = # of users that are not pending approval&#13;
-//    counts.not_required = # of users that approval is not required&#13;
-//&#13;
-</value>
-        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>850a2efa2fd6101001cdbac62799b677</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>any</value>
-        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1120</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>890a2efa2fd6101001cdbac62799b676</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>330</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>8d0a2efa2fd6101001cdbac62799b675</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>approval_history</value>
-        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>2000</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>c10a2efa2fd6101001cdbac62799b674</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>0</value>
-        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>104</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>c10a2efa2fd6101001cdbac62799b677</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>c50a2efa2fd6101001cdbac62799b676</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>c90a2efa2fd6101001cdbac62799b675</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>be82abf03710200044e0bfc8bcbe5d1c</value>
-        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>101</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>cd0a2efa2fd6101001cdbac62799b674</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>approval</value>
-        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>115</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>cd0a2efa2fd6101001cdbac62799b677</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>c50a2efa2fd6101001cdbac62799b676</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>850a2efa2fd6101001cdbac62799b677</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>any</value>
-        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>101</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>cd0a2efa2fd6101001cdbac62799b674</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>approval</value>
-        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>103</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>810a2efa2fd6101001cdbac62799b675</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>104</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>c10a2efa2fd6101001cdbac62799b677</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>110</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>010a2efa2fd6101001cdbac62799b674</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>115</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>cd0a2efa2fd6101001cdbac62799b677</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>120</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>450a2efa2fd6101001cdbac62799b675</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>c90a2efa2fd6101001cdbac62799b675</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>be82abf03710200044e0bfc8bcbe5d1c</value>
-        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>410a2efa2fd6101001cdbac62799b676</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>reject</value>
-        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>330</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>8d0a2efa2fd6101001cdbac62799b675</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>approval_history</value>
-        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>900</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>010a2efa2fd6101001cdbac62799b677</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>900</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>490a2efa2fd6101001cdbac62799b677</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
         <order>1110</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>050a2efa2fd6101001cdbac62799b676</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>93a28c472fda101001cdbac62799b66c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1120</order>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>900</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>890a2efa2fd6101001cdbac62799b676</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>97a280872fda101001cdbac62799b6b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>4d0a2efa2fd6101001cdbac62799b676</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
-        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>810a2efa2fd6101001cdbac62799b678</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>490a2efa2fd6101001cdbac62799b674</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
-        <order>1330</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>0d0a2efa2fd6101001cdbac62799b674</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <value/>
-        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>090a2efa2fd6101001cdbac62799b675</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>97a28c472fda101001cdbac62799b66b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>9ba28c472fda101001cdbac62799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>9fa28c472fda101001cdbac62799b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d3a280872fda101001cdbac62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d3a28c472fda101001cdbac62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d7a28c472fda101001cdbac62799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>dfa280872fda101001cdbac62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>dfa28c472fda101001cdbac62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>57a28c472fda101001cdbac62799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1fa280872fda101001cdbac62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5fa28c472fda101001cdbac62799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>13a28c472fda101001cdbac62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5ba280872fda101001cdbac62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>9fa28c472fda101001cdbac62799b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>57a280872fda101001cdbac62799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d3a28c472fda101001cdbac62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5ba28c472fda101001cdbac62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>be82abf03710200044e0bfc8bcbe5d1c</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>dfa28c472fda101001cdbac62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1fa28c472fda101001cdbac62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>dfa280872fda101001cdbac62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>97a280872fda101001cdbac62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>93a28c472fda101001cdbac62799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>13a280872fda101001cdbac62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d3a280872fda101001cdbac62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d7a28c472fda101001cdbac62799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1ba280872fda101001cdbac62799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>9ba28c472fda101001cdbac62799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>97a28c472fda101001cdbac62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
         <order>1370</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>850a2efa2fd6101001cdbac62799b674</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>17a28c472fda101001cdbac62799b66a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
 //&#13;
 //    counts.total = total number of users that are part of this approval&#13;
@@ -788,29 +788,29 @@ answer = 0;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
         <order>2000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>c10a2efa2fd6101001cdbac62799b674</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>53a28c472fda101001cdbac62799b66a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>0</value>
         <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>890a2efa2fd6101001cdbac62799b673</document_key>
+        <document_key>9ba28c472fda101001cdbac62799b669</document_key>
         <order>2050</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>0d0a2efa2fd6101001cdbac62799b677</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>93a280872fda101001cdbac62799b6b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
 //&#13;
 // For example:&#13;
@@ -821,7 +821,7 @@ answer = 0;</value>
         <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="1st approval">890a2efa2fd6101001cdbac62799b673</activity>
+        <activity display_value="1st approval">9ba28c472fda101001cdbac62799b669</activity>
         <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
         <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
         <condition_type>standard</condition_type>
@@ -835,14 +835,14 @@ answer = 0;</value>
         <short_description>Approval request was approved</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>090a2efa2fd6101001cdbac62799b678</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>9fa280872fda101001cdbac62799b6b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="1st approval">890a2efa2fd6101001cdbac62799b673</activity>
+        <activity display_value="1st approval">9ba28c472fda101001cdbac62799b669</activity>
         <condition>activity.result == 'rejected'</condition>
         <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
         <condition_type>standard</condition_type>
@@ -856,11 +856,11 @@ answer = 0;</value>
         <short_description>Approval request was rejected</short_description>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>890a2efa2fd6101001cdbac62799b678</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>13a280872fda101001cdbac62799b6b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -878,21 +878,21 @@ answer = 0;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>cd0a2efa2fd6101001cdbac62799b66e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>5ba280872fda101001cdbac62799b6bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:57:57</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
         <x>97</x>
         <y>74</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=cd0a2efa2fd6101001cdbac62799b66e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5ba280872fda101001cdbac62799b6bb"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">cd0a2efa2fd6101001cdbac62799b66e</activity>
+        <activity display_value="Begin">5ba280872fda101001cdbac62799b6bb</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -906,11 +906,11 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>c90a2efa2fd6101001cdbac62799b66f</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>13a280872fda101001cdbac62799b6bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -928,19 +928,19 @@ answer = 0;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>410a2efa2fd6101001cdbac62799b679</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5ba28c472fda101001cdbac62799b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:53</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
         <x>1389</x>
         <y>151</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=410a2efa2fd6101001cdbac62799b679"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5ba28c472fda101001cdbac62799b667"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -955,75 +955,145 @@ answer = 0;</value>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Pending 2nd Approval">952a6efa2fd6101001cdbac62799b6e6</stage>
+        <stage display_value="Pending 2nd Approval">d7a28c472fda101001cdbac62799b665</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>9eaaeefa2fd6101001cdbac62799b615</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d7a280872fda101001cdbac62799b6b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:18</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:26:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
         <x>854</x>
         <y>12</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=9eaaeefa2fd6101001cdbac62799b615"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d7a280872fda101001cdbac62799b6b5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>1110</order>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>30caa63e2fd6101001cdbac62799b68b</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>13a280872fda101001cdbac62799b6b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
-        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>17a280872fda101001cdbac62799b6b7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:26:08</sys_updated_on>
+        <value>56ef77b22fda101001cdbac62799b6f6</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1ba280872fda101001cdbac62799b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>1ba280872fda101001cdbac62799b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1fa280872fda101001cdbac62799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1fa280872fda101001cdbac62799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>34caa63e2fd6101001cdbac62799b68a</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>53a280872fda101001cdbac62799b6b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1330</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>38caa63e2fd6101001cdbac62799b689</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>57a280872fda101001cdbac62799b6b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>2050</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>38caa63e2fd6101001cdbac62799b68c</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>57a280872fda101001cdbac62799b6b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
 //&#13;
 // For example:&#13;
@@ -1035,99 +1105,183 @@ answer = 0;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5ba280872fda101001cdbac62799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>900</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>3ccaa63e2fd6101001cdbac62799b68b</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5ba280872fda101001cdbac62799b6b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>120</order>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>1110</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>70caa63e2fd6101001cdbac62799b68a</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5fa280872fda101001cdbac62799b6b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
-        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>74caa63e2fd6101001cdbac62799b689</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>93a280872fda101001cdbac62799b6b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>900</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>74caa63e2fd6101001cdbac62799b68c</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>93a280872fda101001cdbac62799b6b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>78caa63e2fd6101001cdbac62799b68b</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>97a280872fda101001cdbac62799b6b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>310</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>7ccaa63e2fd6101001cdbac62799b68a</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>9ba280872fda101001cdbac62799b6b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>reject</value>
         <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>9fa280872fda101001cdbac62799b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d3a280872fda101001cdbac62799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d7a280872fda101001cdbac62799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>dba280872fda101001cdbac62799b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>dba280872fda101001cdbac62799b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1370</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>b0caa63e2fd6101001cdbac62799b689</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>dfa280872fda101001cdbac62799b6b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
 //&#13;
 //    counts.total = total number of users that are part of this approval&#13;
@@ -1142,464 +1296,310 @@ answer = 0;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>b0caa63e2fd6101001cdbac62799b68c</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>dfa280872fda101001cdbac62799b6b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>any</value>
         <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>1120</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>b4caa63e2fd6101001cdbac62799b68b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>330</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>b8caa63e2fd6101001cdbac62799b68a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value>approval_history</value>
-        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>103</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>bccaa63e2fd6101001cdbac62799b689</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value/>
-        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>bccaa63e2fd6101001cdbac62799b68c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value/>
-        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>f0caa63e2fd6101001cdbac62799b68b</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>13a280872fda101001cdbac62799b6b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>f4caa63e2fd6101001cdbac62799b68a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value>7682abf03710200044e0bfc8bcbe5d1c</value>
-        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>110</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>f8ca263e2fd6101001cdbac62799b633</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value/>
-        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>101</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>f8caa63e2fd6101001cdbac62799b689</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value>approval</value>
-        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>115</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>f8caa63e2fd6101001cdbac62799b68c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value/>
-        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>2000</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>fccaa63e2fd6101001cdbac62799b688</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value>0</value>
-        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>104</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>fccaa63e2fd6101001cdbac62799b68b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value/>
-        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>f0caa63e2fd6101001cdbac62799b68b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value/>
-        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>b0caa63e2fd6101001cdbac62799b68c</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>dfa280872fda101001cdbac62799b6b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>any</value>
         <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>101</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>f8caa63e2fd6101001cdbac62799b689</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1ba280872fda101001cdbac62799b6b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>approval</value>
         <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>103</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>bccaa63e2fd6101001cdbac62799b689</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>dba280872fda101001cdbac62799b6b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>104</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>fccaa63e2fd6101001cdbac62799b68b</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1fa280872fda101001cdbac62799b6b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>110</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>f8ca263e2fd6101001cdbac62799b633</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5ba280872fda101001cdbac62799b6b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>115</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>f8caa63e2fd6101001cdbac62799b68c</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>1ba280872fda101001cdbac62799b6b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
         <value/>
         <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>120</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>70caa63e2fd6101001cdbac62799b68a</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>9fa280872fda101001cdbac62799b6b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>f4caa63e2fd6101001cdbac62799b68a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>17a280872fda101001cdbac62799b6b7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value>7682abf03710200044e0bfc8bcbe5d1c</value>
+        <sys_updated_on>2020-08-02 11:26:08</sys_updated_on>
+        <value>56ef77b22fda101001cdbac62799b6f6</value>
         <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>310</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>7ccaa63e2fd6101001cdbac62799b68a</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>9ba280872fda101001cdbac62799b6b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>reject</value>
         <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>330</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>b8caa63e2fd6101001cdbac62799b68a</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d7a280872fda101001cdbac62799b6b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>approval_history</value>
         <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>900</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>74caa63e2fd6101001cdbac62799b68c</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5ba280872fda101001cdbac62799b6b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
-        <value/>
-        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
-        <order>900</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>3ccaa63e2fd6101001cdbac62799b68b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>93a280872fda101001cdbac62799b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1110</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>30caa63e2fd6101001cdbac62799b68b</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5fa280872fda101001cdbac62799b6b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1120</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>b4caa63e2fd6101001cdbac62799b68b</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d3a280872fda101001cdbac62799b6b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
         <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>78caa63e2fd6101001cdbac62799b68b</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>97a280872fda101001cdbac62799b6b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>bccaa63e2fd6101001cdbac62799b68c</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>dba280872fda101001cdbac62799b6b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
         <value/>
         <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>74caa63e2fd6101001cdbac62799b689</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>93a280872fda101001cdbac62799b6b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1330</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>38caa63e2fd6101001cdbac62799b689</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>57a280872fda101001cdbac62799b6b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>34caa63e2fd6101001cdbac62799b68a</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>53a280872fda101001cdbac62799b6b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>1370</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>b0caa63e2fd6101001cdbac62799b689</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>dfa280872fda101001cdbac62799b6b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
 //&#13;
 //    counts.total = total number of users that are part of this approval&#13;
@@ -1614,29 +1614,29 @@ answer = 0;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>2000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>fccaa63e2fd6101001cdbac62799b688</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1fa280872fda101001cdbac62799b6b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>0</value>
         <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9eaaeefa2fd6101001cdbac62799b615</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6b5</document_key>
         <order>2050</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>38caa63e2fd6101001cdbac62799b68c</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>57a280872fda101001cdbac62799b6b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
 //&#13;
 // For example:&#13;
@@ -1647,7 +1647,7 @@ answer = 0;</value>
         <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Pending 2nd Approval">9eaaeefa2fd6101001cdbac62799b615</activity>
+        <activity display_value="Pending 2nd Approval">d7a280872fda101001cdbac62799b6b5</activity>
         <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
         <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
         <condition_type>standard</condition_type>
@@ -1661,14 +1661,14 @@ answer = 0;</value>
         <short_description>Approval request was approved</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>85caa63e2fd6101001cdbac62799b68d</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>dfa280872fda101001cdbac62799b6b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Pending 2nd Approval">9eaaeefa2fd6101001cdbac62799b615</activity>
+        <activity display_value="Pending 2nd Approval">d7a280872fda101001cdbac62799b6b5</activity>
         <condition>activity.result == 'rejected'</condition>
         <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
         <condition_type>standard</condition_type>
@@ -1682,11 +1682,11 @@ answer = 0;</value>
         <short_description>Approval request was rejected</short_description>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:15</sys_created_on>
-        <sys_id>c9caa63e2fd6101001cdbac62799b68e</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>53a280872fda101001cdbac62799b6ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:15</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
@@ -1702,32 +1702,46 @@ answer = 0;</value>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Pending Submission">450a2efa2fd6101001cdbac62799b66e</stage>
+        <stage display_value="Pending Submission">d3a28c472fda101001cdbac62799b665</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:58:36</sys_created_on>
-        <sys_id>564aeefa2fd6101001cdbac62799b6e7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>97a28c472fda101001cdbac62799b668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:59:00</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
         <x>262</x>
         <y>83</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=564aeefa2fd6101001cdbac62799b6e7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=97a28c472fda101001cdbac62799b668"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>564aeefa2fd6101001cdbac62799b6e7</document_key>
+        <document_key>97a28c472fda101001cdbac62799b668</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5fa28c472fda101001cdbac62799b668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <value>state=1^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>97a28c472fda101001cdbac62799b668</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:58:36</sys_created_on>
-        <sys_id>b06aeefa2fd6101001cdbac62799b682</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>9ba28c472fda101001cdbac62799b668</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:58:36</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
@@ -1735,50 +1749,36 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>564aeefa2fd6101001cdbac62799b6e7</document_key>
+        <document_key>97a28c472fda101001cdbac62799b668</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:58:36</sys_created_on>
-        <sys_id>b46aeefa2fd6101001cdbac62799b682</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>5fa28c472fda101001cdbac62799b668</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:58:36</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>state=1^EQ</value>
         <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>564aeefa2fd6101001cdbac62799b6e7</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:58:36</sys_created_on>
-        <sys_id>b46aeefa2fd6101001cdbac62799b682</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:58:36</sys_updated_on>
-        <value>state=1^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>564aeefa2fd6101001cdbac62799b6e7</document_key>
+        <document_key>97a28c472fda101001cdbac62799b668</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:58:36</sys_created_on>
-        <sys_id>b06aeefa2fd6101001cdbac62799b682</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>9ba28c472fda101001cdbac62799b668</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:58:36</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
         <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Pending Submission">564aeefa2fd6101001cdbac62799b6e7</activity>
+        <activity display_value="Pending Submission">97a28c472fda101001cdbac62799b668</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1792,11 +1792,11 @@ answer = true;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:58:36</sys_created_on>
-        <sys_id>f06aeefa2fd6101001cdbac62799b683</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>d3a28c472fda101001cdbac62799b669</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:58:36</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
@@ -1814,49 +1814,49 @@ answer = true;&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:01:24</sys_created_on>
-        <sys_id>a4fa663e2fd6101001cdbac62799b6e2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>1ba280872fda101001cdbac62799b6ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:02:35</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:25:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
-        <x>1103</x>
-        <y>183</y>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
+        <x>1255</x>
+        <y>25</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=a4fa663e2fd6101001cdbac62799b6e2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1ba280872fda101001cdbac62799b6ba"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a4fa663e2fd6101001cdbac62799b6e2</document_key>
+        <document_key>1ba280872fda101001cdbac62799b6ba</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:01:24</sys_created_on>
-        <sys_id>3d0be23e2fd6101001cdbac62799b644</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>1fa280872fda101001cdbac62799b6ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:01:24</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
         <value>state=2^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a4fa663e2fd6101001cdbac62799b6e2</document_key>
+        <document_key>1ba280872fda101001cdbac62799b6ba</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:01:24</sys_created_on>
-        <sys_id>3d0be23e2fd6101001cdbac62799b644</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>1fa280872fda101001cdbac62799b6ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:01:24</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
         <value>state=2^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set Finished">a4fa663e2fd6101001cdbac62799b6e2</activity>
+        <activity display_value="Set Finished">1ba280872fda101001cdbac62799b6ba</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1870,11 +1870,89 @@ answer = true;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:01:24</sys_created_on>
-        <sys_id>750be23e2fd6101001cdbac62799b645</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>93a280872fda101001cdbac62799b6bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:01:24</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Rejected</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:46</sys_created_on>
+        <sys_id>a9b2c0872fda101001cdbac62799b66a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:25:11</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
+        <x>1031</x>
+        <y>169</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a9b2c0872fda101001cdbac62799b66a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a9b2c0872fda101001cdbac62799b66a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:46</sys_created_on>
+        <sys_id>6dc240872fda101001cdbac62799b614</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:46</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a9b2c0872fda101001cdbac62799b66a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:46</sys_created_on>
+        <sys_id>6dc240872fda101001cdbac62799b614</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:46</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Rejected">a9b2c0872fda101001cdbac62799b66a</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:24:46</sys_created_on>
+        <sys_id>25c240872fda101001cdbac62799b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:24:46</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1890,51 +1968,51 @@ answer = true;&#13;
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Pending 2nd Approval">952a6efa2fd6101001cdbac62799b6e6</stage>
+        <stage display_value="Pending 2nd Approval">d7a28c472fda101001cdbac62799b665</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:40</sys_created_on>
-        <sys_id>1cdae63e2fd6101001cdbac62799b643</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>13a28c472fda101001cdbac62799b666</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:01:39</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
         <x>1054</x>
         <y>11</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=1cdae63e2fd6101001cdbac62799b643"/>
+    <sys_variable_value action="delete_multiple" query="document_key=13a28c472fda101001cdbac62799b666"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>1cdae63e2fd6101001cdbac62799b643</document_key>
+        <document_key>13a28c472fda101001cdbac62799b666</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:40</sys_created_on>
-        <sys_id>d3daa23e2fd6101001cdbac62799b6d6</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>97a28c472fda101001cdbac62799b666</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:40</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>1cdae63e2fd6101001cdbac62799b643</document_key>
+        <document_key>13a28c472fda101001cdbac62799b666</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:40</sys_created_on>
-        <sys_id>d3daa23e2fd6101001cdbac62799b6d6</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>97a28c472fda101001cdbac62799b666</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:40</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
         <value/>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set stage complete">1cdae63e2fd6101001cdbac62799b643</activity>
+        <activity display_value="Set stage complete">13a28c472fda101001cdbac62799b666</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1948,11 +2026,11 @@ answer = true;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:40</sys_created_on>
-        <sys_id>1fdaa23e2fd6101001cdbac62799b6d6</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>53a28c472fda101001cdbac62799b667</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:40</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1968,51 +2046,51 @@ answer = true;&#13;
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Pending 1st Approval">c50a2efa2fd6101001cdbac62799b66e</stage>
+        <stage display_value="Pending 1st Approval">5ba28c472fda101001cdbac62799b665</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:59:30</sys_created_on>
-        <sys_id>f68a223e2fd6101001cdbac62799b627</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>d7a280872fda101001cdbac62799b6bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:59:41</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
         <x>679</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=f68a223e2fd6101001cdbac62799b627"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d7a280872fda101001cdbac62799b6bc"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f68a223e2fd6101001cdbac62799b627</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6bc</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:59:30</sys_created_on>
-        <sys_id>ca9a223e2fd6101001cdbac62799b66e</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>5ba280872fda101001cdbac62799b6bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:59:30</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
         <value/>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f68a223e2fd6101001cdbac62799b627</document_key>
+        <document_key>d7a280872fda101001cdbac62799b6bc</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:59:30</sys_created_on>
-        <sys_id>ca9a223e2fd6101001cdbac62799b66e</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>5ba280872fda101001cdbac62799b6bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:59:30</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
         <value/>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set stage complete">f68a223e2fd6101001cdbac62799b627</activity>
+        <activity display_value="Set stage complete">d7a280872fda101001cdbac62799b6bc</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2026,124 +2104,135 @@ answer = true;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:59:30</sys_created_on>
-        <sys_id>869a223e2fd6101001cdbac62799b66f</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>5fa280872fda101001cdbac62799b6bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:59:30</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">869a223e2fd6101001cdbac62799b66f</condition>
-        <from display_value="Set stage complete">f68a223e2fd6101001cdbac62799b627</from>
+        <condition display_value="Always">53a28c472fda101001cdbac62799b667</condition>
+        <from display_value="Set stage complete">13a28c472fda101001cdbac62799b666</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:20</sys_created_on>
-        <sys_id>0acaa63e2fd6101001cdbac62799b696</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>1fa280872fda101001cdbac62799b6be</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:20</sys_updated_on>
-        <to display_value="Pending 2nd Approval">9eaaeefa2fd6101001cdbac62799b615</to>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
+        <to display_value="Set Finished">1ba280872fda101001cdbac62799b6ba</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Rejected">c9caa63e2fd6101001cdbac62799b68e</condition>
-        <from display_value="Pending 2nd Approval">9eaaeefa2fd6101001cdbac62799b615</from>
+        <condition display_value="Rejected">13a280872fda101001cdbac62799b6b5</condition>
+        <from display_value="1st approval">9ba28c472fda101001cdbac62799b669</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:01:34</sys_created_on>
-        <sys_id>101b2a3e2fd6101001cdbac62799b6a4</sys_id>
+        <sys_created_on>2020-08-02 11:24:55</sys_created_on>
+        <sys_id>27c204872fda101001cdbac62799b65a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:01:34</sys_updated_on>
-        <to display_value="Set Finished">a4fa663e2fd6101001cdbac62799b6e2</to>
+        <sys_updated_on>2020-08-02 11:24:55</sys_updated_on>
+        <to display_value="Set Rejected">a9b2c0872fda101001cdbac62799b66a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Rejected">890a2efa2fd6101001cdbac62799b678</condition>
-        <from display_value="1st approval">890a2efa2fd6101001cdbac62799b673</from>
+        <condition display_value="Approved">dfa280872fda101001cdbac62799b6b9</condition>
+        <from display_value="Pending 2nd Approval">d7a280872fda101001cdbac62799b6b5</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:01:42</sys_created_on>
-        <sys_id>4e1ba23e2fd6101001cdbac62799b635</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>53a280872fda101001cdbac62799b6bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:01:42</sys_updated_on>
-        <to display_value="Set Finished">a4fa663e2fd6101001cdbac62799b6e2</to>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
+        <to display_value="Set stage complete">13a28c472fda101001cdbac62799b666</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">1fdaa23e2fd6101001cdbac62799b6d6</condition>
-        <from display_value="Set stage complete">1cdae63e2fd6101001cdbac62799b643</from>
+        <condition display_value="Always">5fa280872fda101001cdbac62799b6bc</condition>
+        <from display_value="Set stage complete">d7a280872fda101001cdbac62799b6bc</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:01:30</sys_created_on>
-        <sys_id>570b2a3e2fd6101001cdbac62799b610</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>5ba280872fda101001cdbac62799b6be</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:01:30</sys_updated_on>
-        <to display_value="Set Finished">a4fa663e2fd6101001cdbac62799b6e2</to>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
+        <to display_value="Pending 2nd Approval">d7a280872fda101001cdbac62799b6b5</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Approved">090a2efa2fd6101001cdbac62799b678</condition>
-        <from display_value="1st approval">890a2efa2fd6101001cdbac62799b673</from>
+        <condition display_value="Always">93a280872fda101001cdbac62799b6bb</condition>
+        <from display_value="Set Finished">1ba280872fda101001cdbac62799b6ba</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:59:34</sys_created_on>
-        <sys_id>879ae23e2fd6101001cdbac62799b64d</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>5ba280872fda101001cdbac62799b6bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:59:34</sys_updated_on>
-        <to display_value="Set stage complete">f68a223e2fd6101001cdbac62799b627</to>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
+        <to display_value="End">5ba28c472fda101001cdbac62799b667</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">f06aeefa2fd6101001cdbac62799b683</condition>
-        <from display_value="Pending Submission">564aeefa2fd6101001cdbac62799b6e7</from>
+        <condition display_value="Always">d3a28c472fda101001cdbac62799b669</condition>
+        <from display_value="Pending Submission">97a28c472fda101001cdbac62799b668</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:59:03</sys_created_on>
-        <sys_id>9f7a2efa2fd6101001cdbac62799b6b7</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>93a280872fda101001cdbac62799b6be</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:59:03</sys_updated_on>
-        <to display_value="1st approval">890a2efa2fd6101001cdbac62799b673</to>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
+        <to display_value="1st approval">9ba28c472fda101001cdbac62799b669</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">750be23e2fd6101001cdbac62799b645</condition>
-        <from display_value="Set Finished">a4fa663e2fd6101001cdbac62799b6e2</from>
+        <condition display_value="Always">13a280872fda101001cdbac62799b6bc</condition>
+        <from display_value="Begin">5ba280872fda101001cdbac62799b6bb</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:01:28</sys_created_on>
-        <sys_id>b20b2a3e2fd6101001cdbac62799b6a3</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>97a280872fda101001cdbac62799b6be</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:01:28</sys_updated_on>
-        <to display_value="End">410a2efa2fd6101001cdbac62799b679</to>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
+        <to display_value="Pending Submission">97a28c472fda101001cdbac62799b668</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Approved">85caa63e2fd6101001cdbac62799b68d</condition>
-        <from display_value="Pending 2nd Approval">9eaaeefa2fd6101001cdbac62799b615</from>
+        <condition display_value="Approved">9fa280872fda101001cdbac62799b6b4</condition>
+        <from display_value="1st approval">9ba28c472fda101001cdbac62799b669</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 05:00:46</sys_created_on>
-        <sys_id>d4eae63e2fd6101001cdbac62799b64e</sys_id>
+        <sys_created_on>2020-08-02 11:24:21</sys_created_on>
+        <sys_id>97a280872fda101001cdbac62799b6bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 05:00:46</sys_updated_on>
-        <to display_value="Set stage complete">1cdae63e2fd6101001cdbac62799b643</to>
+        <sys_updated_on>2020-08-02 11:24:21</sys_updated_on>
+        <to display_value="Set stage complete">d7a280872fda101001cdbac62799b6bc</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">c90a2efa2fd6101001cdbac62799b66f</condition>
-        <from display_value="Begin">cd0a2efa2fd6101001cdbac62799b66e</from>
+        <condition display_value="Always">25c240872fda101001cdbac62799b615</condition>
+        <from display_value="Set Rejected">a9b2c0872fda101001cdbac62799b66a</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:58:52</sys_created_on>
-        <sys_id>e87a223e2fd6101001cdbac62799b6c5</sys_id>
+        <sys_created_on>2020-08-02 11:25:07</sys_created_on>
+        <sys_id>a2d204872fda101001cdbac62799b65b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:58:52</sys_updated_on>
-        <to display_value="Pending Submission">564aeefa2fd6101001cdbac62799b6e7</to>
+        <sys_updated_on>2020-08-02 11:25:07</sys_updated_on>
+        <to display_value="End">5ba28c472fda101001cdbac62799b667</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Rejected">53a280872fda101001cdbac62799b6ba</condition>
+        <from display_value="Pending 2nd Approval">d7a280872fda101001cdbac62799b6b5</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 11:25:00</sys_created_on>
+        <sys_id>f0d2c0872fda101001cdbac62799b619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 11:25:00</sys_updated_on>
+        <to display_value="Set Rejected">a9b2c0872fda101001cdbac62799b66a</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-02 04:56:58</sys_created_on>
-        <sys_id>0d0a62fa2fd6101001cdbac62799b67d</sys_id>
+        <sys_created_on>2020-08-02 11:24:20</sys_created_on>
+        <sys_id>1fa28c472fda101001cdbac62799b663</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-02 04:56:58</sys_updated_on>
-        <workflow_version display_value="Needit Approval">090a62fa2fd6101001cdbac62799b67d</workflow_version>
+        <sys_updated_on>2020-08-02 11:24:20</sys_updated_on>
+        <workflow_version display_value="Needit Approval">5ba28c472fda101001cdbac62799b663</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=2900f22a2f1a101001cdbac62799b6e6^sys_id!=090a62fa2fd6101001cdbac62799b67d">
+    <wf_workflow_version action="update_multiple" query="workflow=2900f22a2f1a101001cdbac62799b6e6^sys_id!=5ba28c472fda101001cdbac62799b663">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

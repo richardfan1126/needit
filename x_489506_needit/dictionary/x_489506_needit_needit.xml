@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Needit" max_length="40" name="x_489506_needit_needit" type="collection">
+    <element audit="true" extends="task" label="Needit" max_length="40" name="x_489506_needit_needit" sizeclass="3" type="collection">
         <element choice="1" label="Stage" max_length="80" name="stage" type="workflow">
             <choice/>
         </element>

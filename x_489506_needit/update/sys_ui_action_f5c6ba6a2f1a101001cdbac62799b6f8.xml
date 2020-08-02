@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>new Workflow().hasWorkflow(current)</condition>
+        <condition>new global.Workflow().hasWorkflow(current)</condition>
         <form_action>true</form_action>
         <form_button>false</form_button>
         <form_button_v2>false</form_button_v2>
@@ -47,7 +47,7 @@ function showWorkflowContext() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f5c6ba6a2f1a101001cdbac62799b6f8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Show Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Needit" source="x_489506_needit">9b2fa2e62f1a101001cdbac62799b63a</sys_package>
@@ -55,7 +55,7 @@ function showWorkflowContext() {
         <sys_scope display_value="Needit">9b2fa2e62f1a101001cdbac62799b63a</sys_scope>
         <sys_update_name>sys_ui_action_f5c6ba6a2f1a101001cdbac62799b6f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-01 11:23:19</sys_updated_on>
+        <sys_updated_on>2020-08-01 14:59:42</sys_updated_on>
         <table>x_489506_needit_needit</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

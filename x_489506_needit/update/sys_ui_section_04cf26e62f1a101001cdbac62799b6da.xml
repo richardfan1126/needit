@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-01 10:43:33</sys_created_on>
-            <sys_id>44cf622a2f1a101001cdbac62799b6f9</sys_id>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>0026a6f62fd6101001cdbac62799b6c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-01 10:43:33</sys_updated_on>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>assigned_to</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-01 10:43:33</sys_created_on>
-            <sys_id>c4cf622a2f1a101001cdbac62799b6f9</sys_id>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>8026a6f62fd6101001cdbac62799b6c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-01 10:43:33</sys_updated_on>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>cmdb_ci</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-01 10:43:33</sys_created_on>
-            <sys_id>48cf622a2f1a101001cdbac62799b6f9</sys_id>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>0426a6f62fd6101001cdbac62799b6c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-01 10:43:33</sys_updated_on>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>active</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-01 10:43:33</sys_created_on>
-            <sys_id>c8cf622a2f1a101001cdbac62799b6f9</sys_id>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>8426a6f62fd6101001cdbac62799b6c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-01 10:43:33</sys_updated_on>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-01 10:43:33</sys_created_on>
-            <sys_id>4ccf622a2f1a101001cdbac62799b6f9</sys_id>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>0826a6f62fd6101001cdbac62799b6c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-01 10:43:33</sys_updated_on>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>priority</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-01 10:43:33</sys_created_on>
-            <sys_id>cccf622a2f1a101001cdbac62799b6f9</sys_id>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>8826a6f62fd6101001cdbac62799b6c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-01 10:43:33</sys_updated_on>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>state</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-01 10:43:33</sys_created_on>
-            <sys_id>40cf622a2f1a101001cdbac62799b6fa</sys_id>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>0c26a6f62fd6101001cdbac62799b6c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-01 10:43:33</sys_updated_on>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>parent</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-01 10:43:33</sys_created_on>
-            <sys_id>c0cf622a2f1a101001cdbac62799b6fa</sys_id>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>8c26a6f62fd6101001cdbac62799b6c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-01 10:43:33</sys_updated_on>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>.end_split</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-01 10:43:33</sys_created_on>
-            <sys_id>44cf622a2f1a101001cdbac62799b6fa</sys_id>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>0026a6f62fd6101001cdbac62799b6c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-01 10:43:33</sys_updated_on>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>short_description</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-01 10:43:33</sys_created_on>
-            <sys_id>c4cf622a2f1a101001cdbac62799b6fa</sys_id>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>8026a6f62fd6101001cdbac62799b6c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-01 10:43:33</sys_updated_on>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>description</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-01 10:43:33</sys_created_on>
-            <sys_id>48cf622a2f1a101001cdbac62799b6fa</sys_id>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>0426a6f62fd6101001cdbac62799b6c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-01 10:43:33</sys_updated_on>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,15 +158,29 @@
             <element>work_notes</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-01 10:43:33</sys_created_on>
-            <sys_id>c8cf622a2f1a101001cdbac62799b6fa</sys_id>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>8426a6f62fd6101001cdbac62799b6c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-01 10:43:33</sys_updated_on>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-02 04:39:58</sys_created_on>
+            <sys_id>0826a6f62fd6101001cdbac62799b6c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_489506_needit_needit" sys_domain="global" view="Default view">04cf26e62f1a101001cdbac62799b6da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-02 04:39:58</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
